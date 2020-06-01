@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>GitHub Repository Search</h1>
+    </header>
+    <fieldset>
+        <form>
+            <label for="handle">What GitHub Handle Would You Like to Search?</label>
+            <input type="text" id="handle" />
+            <input type="button" class="submit" value="Search" />
+        </form>
+    </fieldset>
+    <div class="response hidden">
+        <ul class="response-list"> </ul>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
