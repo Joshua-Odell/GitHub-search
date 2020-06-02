@@ -7,7 +7,6 @@ function pull(username){
         .then (responseJson => {
             if (true){ // this indicator for success is not working
                 responseHandler(responseJson);
-                console.log("success");
                 
             }
             else {
